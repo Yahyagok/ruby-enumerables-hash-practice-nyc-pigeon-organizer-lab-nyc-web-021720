@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
     names.each do |name|
       x.each do |item|
         if name == item 
-          hash[:name][:color] << bird_color.to_s
+          hash[item][:color] << bird_color.to_s
     
   end
 end
