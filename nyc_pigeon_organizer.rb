@@ -24,6 +24,7 @@ def nyc_pigeon_organizer(data)
  hash = { array => { apple, sdsd, df}}
  hash[:array]
  
+ 
         end
      end
    end
