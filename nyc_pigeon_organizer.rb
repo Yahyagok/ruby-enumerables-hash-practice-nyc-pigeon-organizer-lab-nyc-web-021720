@@ -8,7 +8,6 @@ def nyc_pigeon_organizer(data)
   data.each do |first_level, second_level| 
     second_level.each do |category, names|
       names.each do |name|
-        binding.pry
         hash[name] = {:color => [] , :gender => [], :lives =>[]}
       end 
     end 
