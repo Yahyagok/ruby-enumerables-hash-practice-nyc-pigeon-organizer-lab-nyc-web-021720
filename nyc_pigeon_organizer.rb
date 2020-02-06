@@ -12,6 +12,7 @@ def nyc_pigeon_organizer(data)
   x = hash.keys 
   data[:color].each do | bird_color, names|
     names.each do |name|
+      x.each do |item|
     
   
   
