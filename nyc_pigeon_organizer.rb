@@ -23,6 +23,8 @@ end
   data[:gender].each do |y,names|
     names.each do |name|
       x.each do |item|
+        if name == item 
+          hash[item][:gender]<< y.to_s
   
   
 end
