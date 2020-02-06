@@ -22,6 +22,7 @@ def nyc_pigeon_organizer(data)
 end 
   data[:gender].each do |y,names|
     names.each do |name|
+      x.each do |item|
   
   
 end
