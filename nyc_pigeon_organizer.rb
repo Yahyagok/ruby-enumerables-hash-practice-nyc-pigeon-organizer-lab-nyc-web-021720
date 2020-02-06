@@ -17,7 +17,6 @@ def nyc_pigeon_organizer(data)
   data[:color].each do | bird_color, names|
     names.each do |name|
       x.each do |item|
-        # binding.pry
         if name == item 
           hash[item][:color] << bird_color.to_s
 
@@ -25,25 +24,25 @@ def nyc_pigeon_organizer(data)
      end
    end
 end 
-#   data[:gender].each do |gender,names|
-#     names.each do |name|
-#       x.each do |item|
-#         if name == item 
-#           hash[item][:gender]<< gender.to_s
-#         end
-#       end
-#     end
-#   end
-#   data[:lives].each do |areas, names|
-#     names.each do |name|
-#       x.each do |item|
-#         if name == item 
-#           hash[item][:lives] << areas
-#         end 
-#       end
-#     end
-#   end 
-#   hash 
+  data[:gender].each do |gender,names|
+    names.each do |name|
+      x.each do |item|
+        if name == item 
+          hash[item][:gender]<< gender.to_s
+        end
+      end
+    end
+  end
+  data[:lives].each do |areas, names|
+    names.each do |name|
+      x.each do |item|
+        if name == item 
+          hash[item][:lives] << areas
+        end 
+      end
+    end
+  end 
+  hash 
   
   
 end
