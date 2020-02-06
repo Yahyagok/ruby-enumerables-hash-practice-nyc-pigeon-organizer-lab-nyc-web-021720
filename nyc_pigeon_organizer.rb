@@ -20,7 +20,7 @@ def nyc_pigeon_organizer(data)
         # binding.pry
         if name == item 
           hash[:name][:color] << bird_color.to_s
-    [:ssff]
+  
    [ {"Theo"=>{:color=>[], :gender=>[], :lives=>[]}]
         end
      end
