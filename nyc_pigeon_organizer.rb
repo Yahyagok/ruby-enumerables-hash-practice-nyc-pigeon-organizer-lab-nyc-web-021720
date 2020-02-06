@@ -34,6 +34,11 @@ end
       x.each do |item|
         if name == item 
           hash[item][:lives] << areas
+        end 
+      end
+    end
+  end 
+  hash 
   
   
 end
