@@ -20,12 +20,7 @@ def nyc_pigeon_organizer(data)
         # binding.pry
         if name == item 
           hash[item][:color] << bird_color.to_s
-  
- hash = { array => { apple, sdsd, df}}
- hash[:array]
- 
- hash = [ array => { apple, sdsd, df}]
- hash[array]
+
         end
      end
    end
