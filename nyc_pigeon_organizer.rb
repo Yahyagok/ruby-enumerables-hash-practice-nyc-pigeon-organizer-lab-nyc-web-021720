@@ -10,6 +10,7 @@ def nyc_pigeon_organizer(data)
   data.each do |first_level, second_level| 
     second_level.each do |category, names|
       names.each do |name|
+        binding.pry
         hash[name] = {:color => [] , :gender => [], :lives =>[]}
       end 
     end 
@@ -18,7 +19,7 @@ def nyc_pigeon_organizer(data)
   data[:color].each do | bird_color, names|
     names.each do |name|
       x.each do |item|
-        binding.pry
+        # binding.pry
         if name == item 
           hash[:name][:color] << bird_color.to_s
     [:ssff]
