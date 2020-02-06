@@ -20,11 +20,20 @@ def nyc_pigeon_organizer(data)
      end
    end
 end 
-  data[:gender].each do |y,names|
+  data[:gender].each do |gender,names|
     names.each do |name|
       x.each do |item|
         if name == item 
-          hash[item][:gender]<< y.to_s
+          hash[item][:gender]<< gender.to_s
+        end
+      end
+    end
+  end
+  data[:lives].each do |areas, names|
+    names.each do |name|
+      x.each do |item|
+        if name == item 
+          hash[item][:lives] << areas
   
   
 end
