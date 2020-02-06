@@ -16,7 +16,10 @@ def nyc_pigeon_organizer(data)
         if name == item 
           hash[:name][:color] << bird_color.to_s
     
-  
+  end
+end
+end
+
   
   
   
