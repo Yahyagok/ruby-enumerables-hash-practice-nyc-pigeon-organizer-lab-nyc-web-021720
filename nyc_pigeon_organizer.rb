@@ -1,4 +1,8 @@
+require 'pry'
+
 def nyc_pigeon_organizer(data)
+  
+  
   
   hash = {}
   
@@ -13,6 +17,7 @@ def nyc_pigeon_organizer(data)
   data[:color].each do | bird_color, names|
     names.each do |name|
       x.each do |item|
+        binding.pry
         if name == item 
           hash[:name][:color] << bird_color.to_s
     
